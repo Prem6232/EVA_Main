@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - EVA</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .navbar {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+        background: linear-gradient(
+          to right,
+          rgba(180, 0, 255, 0.7),
+          rgba(80, 0, 255, 0.7)
+        );
+        box-shadow: 0 0 20px rgba(180, 0, 255, 0.6);
+      }
+      .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .brand {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+      .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+      .nav-right a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1rem;
+        transition: opacity 0.2s ease;
+      }
+      .nav-right a:hover {
+        opacity: 0.8;
+      }
+      .signin-btn {
+        background: #2c024f;
+        padding: 0.5rem 1.2rem;
+        border-radius: 999px;
+        font-weight: bold;
+      }
+      .signin-btn:hover {
+        opacity: 0.9;
+      }
+
+    
+      .about-container {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 20px;
+        text-align: center;
+      }
+      .about-container h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #6a0dad;
+      }
+      .about-container p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: #333;
+      }
+      .developer {
+        margin-top: 30px;
+        font-size: 1rem;
+        color: #444;
+        font-style: italic;
+      }
+      .developer strong {
+        color: #6a0dad;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="navbar">
+      <div class="nav-left">
+        <!-- <img src="logo.png" alt="Logo" class="logo" /> -->
+         <img src="assets/logo.png" alt="EVA Logo" class="logo" />
+        <span class="brand">EVA</span>
+      </div>
+      <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="signin.html" class="signin-btn">Sign In</a>
+      </div>
+    </div>
+
+    
+    <div class="about-container">
+      <h1>About EVA</h1>
+      <p>
+        EVA is an intelligent AI-powered voice assistant capable of
+        understanding natural language commands, answering queries, managing
+        tasks, and interacting seamlessly with your digital ecosystem. Unlike
+        traditional assistants, EVA is designed to be more responsive,
+        context-aware, and human-like in its interactions. Key Features of EVA
+        Voice Recognition & Natural Language Understanding EVA can understand
+        and interpret complex voice commands in multiple languages, making
+        interactions smooth and conversational. Task Management From setting
+        reminders and alarms to managing your calendar and to-do lists, EVA
+        keeps your day organized effortlessly. Smart Home Integration Control
+        smart devices like lights, thermostats, and security systems using
+        simple voice commands. Information & Assistance Get real-time updates on
+        weather, news, stock prices, or even ask general knowledge questions.
+        Entertainment & Media Control Play music, podcasts, or videos, and
+        control media playback on compatible devices without lifting a finger.
+        Personalized Experience EVA learns from your preferences, frequently
+        used commands, and daily routines to offer a tailored experience.
+      </p>
+      <p>
+        Final Thoughts EVA is not just another AI assistant—it's a personal
+        digital companion that understands, learns, and grows with you. Whether
+        you're a busy professional, a student, or someone who loves smart
+        technology, EVA promises to make your life easier, smarter, and more
+        connected.
+      </p>
+
+      <div class="developer">
+        Developed by <strong>Prem Paswan</strong><br />
+        <!-- "A passionate web developer who loves building modern and user-friendly
+        web applications." -->
+      </div>
+    </div>
+  </body>
+</html>
